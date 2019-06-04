@@ -1,0 +1,107 @@
+/* @import url('https://fonts.googleapis.com/css?family=Liber:400,600'); */
+/* @import url('https://fonts.googleapis.com/css?family=FuturaPT,Helvetica,Arial,sans-serif:400,600'); */
+/* @import url('https://fonts.googleapis.com/css?family=Lato|Open+Sans|Ubuntu:500&display=swap'); */
+@import url('https://fonts.googleapis.com/css?family=Lato|Open+Sans|Ubuntu:500&display=swap');
+
+body {
+    /* background: rgb(221, 219, 217); */
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.container {
+    text-align: center;
+    padding: .8em 1.2em;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.hide-mobile {
+    display: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    border-width: 2px;
+    border-color: black;
+    font-size: 14px;
+    line-height: 1;
+    width: 150px;
+    height: 50px;
+    padding: 13px 19px;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* header h1 {
+    text-align: left;
+} */
+
+.menu {
+    width: 25px;
+    margin-top: 45%;
+}
+
+
+/* FuturaPT,Helvetica,Arial,sans-serif; */
+
+nav ul {
+    position: inherit;
+    width: auto;
+    background: none;
+    height: auto;
+    display: flex;
+    padding-top: 0;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: #232323;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    padding: 1em 2em;
+    /* background-color: rgb(49, 55, 59); */
+}
+
+nav ul li a:hover {
+   color: #dd9933;
+}
+
+
+/* nav ul li a {
+    color: black;
+    background-color: inherit;
+    text-align: right;
+    padding: 1em 2em;
+}
+
+nav ul li a:hover {
+    background-color: inherit;
+} */
+
+
+.logo {
+    width: 60px;
+}
+
+.myPhoto {
+    width: 70%;
+    margin: 32px;
+}
